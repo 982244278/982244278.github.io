@@ -14,7 +14,7 @@ description: You'll shine like a diamond
 #
 
 # 你的博客logo图片URL，建议尺寸不超过300px × 300px
-avatar: https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/logo.png
+avatar: #https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/logo.png
 
 # 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
 favicon: https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/favicon.png
@@ -56,7 +56,7 @@ footer-links:
 footer-text: Copyright (c) 2019 来自中世界
 
 # 输入Disqus shortname，即可添加评论区，细节可阅读文档。
-disqus: loffer #shortname
+disqus: SHOPE #shortname
 
 # 输入Google Analytics web tracking code
 google_analytics:

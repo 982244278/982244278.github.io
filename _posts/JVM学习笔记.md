@@ -1,6 +1,12 @@
-# JVM学习笔记
-
-
+---
+layout: post
+title: JVM
+date: 2020-11-18
+Author: shope
+categories: 
+tags: [JVM, ClassLoad]
+comments: true
+---
 
 ## 一、类加载过程
 

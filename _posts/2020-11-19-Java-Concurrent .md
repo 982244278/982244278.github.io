@@ -8,8 +8,6 @@ tags: [Java 并发编程, BlockQueue, ThreadPool]
 comments: true
 ---
 
-# Java 并发编程
-
 ### 并发编程特性：
 
 1、可见性--volatile解决可见性问题（确保变化及时可见）

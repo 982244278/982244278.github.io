@@ -122,7 +122,7 @@ class Node {
 
 ReentrantLock是一种居于AQS框架的应用实现，是JDK中的一种线程并发访问的同步手段，他的功能类似于synchronized是一种互斥锁，可以保证线程安全。而且它具有比synchronized更多的特性，比如它支持手动加锁与解锁，支持加锁的公平性。
 
-![ReentrantLock类图](image_for_notes\ReentrantLock_Class_Relation.png)
+![ReentrantLock_Class_Relation.png](https://i.loli.net/2020/11/20/FTkaVKodCtg1upm.png)
 
 ```java
 //	使用ReentrantLock进行同步

@@ -139,7 +139,7 @@ lock.unlock();	//	解锁
 
 这些类都继承自Sync，也就是间接继承了AbstractQueueSybchronizer，所以ReentrantLock同时具备公平与非公平特性。
 
-<font color="red">*</font>**interrupt()**方法会将线程的中断信号清楚，并返回中断状态，这也就意味着线程会进入运行状态。
+<font color="red">*</font> **interrupt()**方法会将线程的中断信号清楚，并返回中断状态，这也就意味着线程会进入运行状态。
 
 ### BlockQueue
 

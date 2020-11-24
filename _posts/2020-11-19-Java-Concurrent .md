@@ -169,6 +169,12 @@ public Semaphore(int permits, boolean fair)
 public void acquire() throws InterruptedException
 //	表示释放许可
 public void release()
+    
+//	例子
+    //	每次自能有两个线程同时运行
+    Semaphore s = new Semaphore(2); 
+	s.acquire(); //	会将资源 status!=0,status-1,
+	s.release(); //	返还资源 status+1
 ```
 
 应用：Hystrix里限流就是基于信号量方式；

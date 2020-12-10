@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 关于
-permalink: /about/Hello
+permalink: /about/
 ---
 
 Hello，大家好，shope是一个阳光积极的男生，喜欢IT技术，喜欢打游戏 ，是一个肥宅，但也喜欢和大家交朋友。

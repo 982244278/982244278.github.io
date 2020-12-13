@@ -81,7 +81,9 @@ public class HangrySingleton{
 
 ### 单例模式--内部类
 
-使用内部内可以实现
+使用内部内可以达到唯一性，本质上还是利用JVM类加载来保证的。
+
+只有在使用的时候才会触发初始化（ 调用InnerClassSingleton.getInstance( ) ），也是懒加载的一种形式。实现了反射保护。
 
 ```java
 public class InnerClassSingleton{

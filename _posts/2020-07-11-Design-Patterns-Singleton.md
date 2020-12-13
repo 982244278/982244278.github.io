@@ -13,7 +13,7 @@ tags: [单例设计模式]
 
 在两个线程A、B同时获取实例，就不能确保返回的是同一个实例。
 
-```Java
+```java
 public class LazySingleton{
     private static LazySingleton INSTANCE;
     private LazySingleton(){}

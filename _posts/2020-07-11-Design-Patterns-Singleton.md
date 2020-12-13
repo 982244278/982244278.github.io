@@ -15,8 +15,11 @@ tags: [单例设计模式]
 
 ```java
 public class LazySingleton{
+    
     private static LazySingleton INSTANCE;
+    
     private LazySingleton(){}
+    
     public static LazySingleton getInstance(){
         if(null == INSTANCE){
             INSTANCE = new LazySingleton();

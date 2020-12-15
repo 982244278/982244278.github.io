@@ -11,8 +11,6 @@ comments: true
 
 ​		它是一个**分布式协调框架**，是Apache Hadoop 的一个子项 目，它主要是用来解决分布式应用中经常遇到的一些数据管理问题，如：统一命名服务、状态同 步服务、集群管理、分布式应用配置项的管理等。
 
-<a href="https://www.processon.com/diagraming/5fbe79107d9c08478997a0e2 "><font color="gree">ZooKeeper源码学习思路图</font></a>
-
 ## 2、ZooKeeper文件系统数据结构
 
 **2.1、Zookeeper维护一个类似文件系统的数据结构：**
@@ -94,3 +92,4 @@ public class Vote {
 
 ![Zookper-Election-Rule.PNG](https://i.loli.net/2020/12/15/R4BNFrujqh8cv2e.png)
 
+<a href="https://www.processon.com/diagraming/5fbe79107d9c08478997a0e2 "><font color="gree">ZooKeeper源码学习思路图</font></a>

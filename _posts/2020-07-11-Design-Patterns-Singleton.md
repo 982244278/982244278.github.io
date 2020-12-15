@@ -4,7 +4,7 @@ title: Singleton Design patterns(单例设计模式)
 date: 2020-7-11
 Author: shope
 categories: Design patterns
-tags: [单例设计模式]
+tags: [设计模式]
 ---
 
 ### 单例模式--懒汉式

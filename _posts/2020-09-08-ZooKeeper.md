@@ -5,13 +5,12 @@ date: 2020-09-08
 Author: shope
 categories: ZooKeeper
 tags: [ZooKeeper]
-comments: true
 ---
-## 1、ZooKeeper是什么？
+### 1、ZooKeeper是什么？
 
 ​		它是一个**分布式协调框架**，是Apache Hadoop 的一个子项 目，它主要是用来解决分布式应用中经常遇到的一些数据管理问题，如：统一命名服务、状态同 步服务、集群管理、分布式应用配置项的管理等。
 
-## 2、ZooKeeper文件系统数据结构
+### 2、ZooKeeper文件系统数据结构
 
 **2.1、Zookeeper维护一个类似文件系统的数据结构：**
 
@@ -46,11 +45,14 @@ comments: true
 **每个节点都有一个状态：**
 
 - **Looking**：此状态为集群中还未有Leader，所有的Follow都为Looking状态。
+
 - **Following**：表明该节点是Follow节点，除了只能给客户端提供读取数据服务，还可以参与Leader选举。
+
 - **Leading**：表示节点为Leader节点，提供读写数据的服务。
+
 - **Observing**：表示为Observer节点，仅提供读请求，不可以参与Leader的选举和投票。
 
-
+  
 
 **ZooKeeper集群写数据机制：**只有Leader节点才写数据，在Leader写入数据后，会让Follow节点去同步数据，Follow同步成功会响应给Leader，最后统计同步成功的Follow节点的数量，在集群中超过半数的Follow节点写入数据成功该条数据才算成功写入。**Observer节点不计算为过半数量**。
 

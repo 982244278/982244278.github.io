@@ -3,7 +3,7 @@ layout: post
 title: ZooKeeper
 date: 2020-09-08
 Author: shope
-categories:
+categories: ZooKeeper
 tags: [ZooKeeper]
 comments: true
 ---

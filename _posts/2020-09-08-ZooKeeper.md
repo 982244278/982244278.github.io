@@ -92,4 +92,7 @@ public class Vote {
 
 ![Zookper-Election-Rule.PNG](https://i.loli.net/2020/12/15/R4BNFrujqh8cv2e.png)
 
-<a href="https://www.processon.com/diagraming/5fbe79107d9c08478997a0e2 "><font color="gree">ZooKeeper源码学习思路图</font></a>
+
+
+<a href="https://www.processon.com/diagraming/5fbe79107d9c08478997a0e2">**ZooKeeper源码学习思路图**</a>
+

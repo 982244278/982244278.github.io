@@ -9,7 +9,7 @@ comments: true
 ---
 ## 1、ZooKeeper是什么？
 
-​		它是一个**分布式协调框架**，是Apache Hadoop 的一个子项 目，它主要是用来解决分布式应用中经常遇到的一些数据管理问题，如：**统一命名服务、状态同 步服务、集群管理、分布式应用配置项的管理等**。
+​		它是一个**分布式协调框架**，是Apache Hadoop 的一个子项 目，它主要是用来解决分布式应用中经常遇到的一些数据管理问题，如：统一命名服务、状态同 步服务、集群管理、分布式应用配置项的管理等。
 
 [ZooKeeper源码学习思路图]: https://www.processon.com/diagraming/5fbe79107d9c08478997a0e2
 
@@ -70,22 +70,22 @@ comments: true
 public class Vote {
     //	这个暂时不知道
     private final int version;
-    //	被选的Leader id
+	//	被选的Leader id
     private final long id;
-	//	被选的Leaders 的事务ID
+    //	被选的Leaders 的事务ID
     private final long zxid;
 	//	逻辑时钟 每进入新一轮的投票后都会 +1
     private final long electionEpoch;
 	//	选举周期
     private final long peerEpoch;
-    //	节点状态
+	//	节点状态
     private final ServerState state;
 }
 
  public enum ServerState {
-    LOOKING,
+    LOOKING,0
     FOLLOWING,
-   	LEADING,
+    LEADING,
     OBSERVING
    }
 ```
